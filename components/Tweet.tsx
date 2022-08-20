@@ -45,7 +45,7 @@ function Tweet({ tweet }: Props) {
       username: session?.user?.name || 'Unknown User',
       profileImg: session?.user?.image || 'https://links.papareact.com/gll',
     }
-    const result = await fetch(`/api/addComment`, {
+    const result = await fetch(`https://twitter-clone-charlton.vercel.app/api/addComment`, {
       body: JSON.stringify(commentInfo),
       method: 'POST'
     })

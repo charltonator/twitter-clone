@@ -45,7 +45,7 @@ function TweetBox({setTweets}: Props) {
       image: image,
     }
 
-    const result = await fetch(`/api/addTweet`, {
+    const result = await fetch(`https://twitter-clone-charlton.vercel.app/api/addTweet`, {
       body: JSON.stringify(tweetInfo),
       method: 'POST'
     })
