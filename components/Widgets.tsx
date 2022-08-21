@@ -15,7 +15,7 @@ function Widgets() {
       </div>
       <TwitterTimelineEmbed
         sourceType="profile"
-        screenName="yelingyelling"
+        screenName="riotgames"
         options={{height: 1000}}
         />
     </div>
