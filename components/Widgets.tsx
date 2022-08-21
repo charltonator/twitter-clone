@@ -18,13 +18,13 @@ function Widgets({username}: Props) {
           className="bg-transparent flex-1 outline-none"
         />
       </div>
-      {/* <div className="object-fill"> */}
-      {/* <TwitterTimelineEmbed
+      <div className="object-fill">
+      <TwitterTimelineEmbed
         sourceType="profile"
         screenName={username}
         options={{height: 500}}
-        /> */}
-      {/* </div> */}
+        />
+      </div>
     </div>
   );
 }
