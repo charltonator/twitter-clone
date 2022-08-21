@@ -16,7 +16,7 @@ function Widgets() {
       <TwitterTimelineEmbed
         sourceType="profile"
         screenName="riotgames"
-        options={{height: 1000}}
+        options={{height: 500}}
         />
     </div>
   );
