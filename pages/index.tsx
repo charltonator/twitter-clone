@@ -20,11 +20,10 @@ const Home = ({ tweets }: Props) => {
     <div className="lg:max-w-6xl mx-auto max-h-screen overflow-hidden">
       <Head>
         <title>Twitter 2.0</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Toaster />
 
-      <main className='grid-flow-col grid-cols-10 items-start'>
+      <main className='grid grid-cols-9 items-start'>
       <Sidebar />
       <Feed tweets={tweets} />
       <Widgets username='riotgames'/>
