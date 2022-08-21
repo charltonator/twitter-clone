@@ -26,8 +26,8 @@ const Home = ({ tweets }: Props) => {
 
       <main className='grid grid-cols-9'>
       <Sidebar />
-      <Feed tweets={tweets} />
       <Widgets />
+      <Feed tweets={tweets} />
       </main>
 
      
