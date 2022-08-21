@@ -24,10 +24,10 @@ const Home = ({ tweets }: Props) => {
       </Head>
       <Toaster />
 
-      <main className='grid-flow-col grid-cols-8 items-start'>
+      <main className='grid-flow-col grid-cols-10 items-start'>
       <Sidebar />
       <Feed tweets={tweets} />
-      <Widgets />
+      <Widgets username='riotgames'/>
       </main>
 
      
